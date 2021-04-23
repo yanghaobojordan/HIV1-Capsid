@@ -1,0 +1,47 @@
+# Peptiderive report file complex
+
+- Chains: 12
+- Rosetta version: unknown:c0119b06ba84bbcafae1e10c9f70522fca96970d 2016-11-15 16:39:09 -0800 from https://github.com/RosettaCommons/main.git
+- (*) in the 'Relative interface score (%)' column means positive values were calculated for these entries, indicating unfavorable interactions
+- (**) in the 'Cyclized interface score' column means that a cyclized model was not constructed for this cyclizable peptide, since its energy contribution (in its linear form) was not significant
+- Cyclized peptide models have additional N- and C-terminal cysteine residues, not shown in the 'Sequence' column
+
+
+## Best linear peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------------|
+| A        | O       | 16             | 2        | -22.674         | 99.69                        | NNSPSGVFTFYANSST     |
+| B        | O       | 16             | 2        | -18.000         | 100.00                       | NNSPSGVFTFYANSST     |
+
+
+## Best cyclizable peptides for all chain pairs
+
+| Receptor | Partner | Peptide length | Position | Interface score | Relative interface score (%) | Disulfide info | Cyclized interface score | Sequence             |
+|----------|---------|----------------|----------|-----------------|------------------------------|----------------|--------------------------|----------------------|
+
+
+## All linear peptides
+
+### Receptor= A Partner= O Peptide_length= 16
+- Total interface score: -22.745
+
+| Position | Interface score | Relative interface score (%) |
+|----------|-----------------|------------------------------|
+| 1        | -21.173         | 93.09                        |
+| 2        | -22.674         | 99.69                        |
+---
+### Receptor= B Partner= O Peptide_length= 16
+- Total interface score: -18.000
+
+| Position | Interface score | Relative interface score (%) |
+|----------|-----------------|------------------------------|
+| 1        | -17.909         | 99.49                        |
+| 2        | -18.000         | 100.00                       |
+---
+
+## All cyclizable peptides
+
+
+
+*end of report*
